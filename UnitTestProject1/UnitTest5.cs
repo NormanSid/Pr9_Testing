@@ -1,7 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using WpfApp2;
 
-namespace FirstTest
+namespace UnitTestProject1
 {
     [TestClass]
     public class UnitTest5
@@ -64,3 +65,4 @@ namespace FirstTest
         }
     }
 }
+

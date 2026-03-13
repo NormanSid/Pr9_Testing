@@ -1,15 +1,15 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using WpfApp2;
 using System.Collections.Generic;
+using WpfApp2;
 
-namespace FirstTest
+namespace UnitTestProject1
 {
     [TestClass]
     public class UnitTest3
     {
         [TestMethod]
-        public void AuthTestSuccess()
+        public void TestMethod1()
         {
             var OurUsers = new List<(string Login, string Password)>
             {

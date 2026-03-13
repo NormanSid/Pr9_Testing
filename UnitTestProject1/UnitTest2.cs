@@ -1,14 +1,14 @@
-﻿using WpfApp2;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using WpfApp2;
 
-namespace FirstTest
+namespace UnitTestProject1
 {
     [TestClass]
     public class UnitTest2
     {
         [TestMethod]
-        public void AuthTest()
+        public void TestMethod1()
         {
             var page = new Autorization();
             Assert.IsFalse(page.Auth("test", "test"));

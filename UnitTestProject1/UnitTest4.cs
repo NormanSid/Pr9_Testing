@@ -3,13 +3,13 @@ using System;
 using System.Collections.Generic;
 using WpfApp2;
 
-namespace FirstTest
+namespace UnitTestProject1
 {
     [TestClass]
     public class UnitTest4
     {
         [TestMethod]
-        public void AuthTestFailure()
+        public void TestMethod1()
         {
             var negativeCases = new List<(string Login, string Password, string Description)>
             {
